@@ -1,11 +1,11 @@
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
-    
-    /*@media screen and (min-width: 480px) {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+
+  /*@media screen and (min-width: 480px) {
       width: 480px;
     }
 
@@ -25,15 +25,16 @@ a {
   color: rgba(66, 21, 117, 0.4);
 }
 .card {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 .card__item {
   max-width: 500px;
   border: 2px solid aqua;
   padding: 10px 10px;
+  background-color: rgb(232, 250, 215);
 }
 .card__title {
   text-align: center;
